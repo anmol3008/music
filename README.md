@@ -77,7 +77,7 @@ Open browser at `http://localhost:3000`
 ## Environment Variables
 
 ### Frontend (`.env` file in frontend folder)
-```
+```env
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 ```
 ***
