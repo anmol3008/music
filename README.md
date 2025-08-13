@@ -45,28 +45,28 @@ Sangeetify is a modern real-time music streaming platform built on the MERN stac
 
 ## Installation and Setup
 1. **Clone the repository**
-```
+```bash
 git clone https://github.com/anmol3008/music.git   
 cd music
 ```
 
 2. **Setup and start backend**
-```
+```bash
 cd backend  
 npm install
 ```
 Create .env file with your secure backend variables (see below)  
-```
+```bash
 npm run dev
 ```
 
 3. **Setup and start frontend**
-```
+```bash
 cd ../frontend
 npm install
 ```
 Create .env file with your secure frontend variables (see below) 
-```
+```bash
 npm run dev
 ```
 4. **Access the app**
