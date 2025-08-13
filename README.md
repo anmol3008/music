@@ -55,7 +55,7 @@ cd music
 cd backend  
 npm install
 ```
-Create .env file with your secure backend variables (see above)  
+Create .env file with your secure backend variables (see below)  
 ```
 npm run dev
 ```
@@ -65,7 +65,7 @@ npm run dev
 cd ../frontend
 npm install
 ```
-Create .env file with your secure frontend variables (see above) 
+Create .env file with your secure frontend variables (see below) 
 ```
 npm run dev
 ```
