@@ -45,13 +45,14 @@ Sangeetify is a modern real-time music streaming platform built on the MERN stac
 ## Environment Variables
 
 ### Frontend (`.env` file in frontend folder)
-
+```
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-
+```
 ***
 
 ### Backend (`.env` file in backend folder)
 
+```env
 PORT=5000  
 MONGODB_URI=your_mongodb_connection_string_here
 
@@ -65,8 +66,7 @@ NODE_ENV=development
 
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 CLERK_SECRET_KEY=your_clerk_secret_key_here
-
-
+```
 
 *Replace all placeholders with the actual secure values in your local `.env` files.*
 
@@ -74,32 +74,30 @@ CLERK_SECRET_KEY=your_clerk_secret_key_here
 
 ## Installation and Setup
 1. **Clone the repository**
-
+```
 git clone https://github.com/anmol3008/music.git   
 cd music
-
-
+```
 
 2. **Setup and start backend**
-
-cd backend
+```
+cd backend  
 npm install
-
-Create .env file with your secure backend variables (see above)
+```
+Create .env file with your secure backend variables (see above)  
+```
 npm run dev
-
-text
+```
 
 3. **Setup and start frontend**
-
+```
 cd ../frontend
 npm install
-
-Create .env file with your secure frontend variables (see above)
+```
+Create .env file with your secure frontend variables (see above) 
+```
 npm run dev
-
-text
-
+```
 4. **Access the app**
 
 Open browser at `http://localhost:3000`
@@ -126,8 +124,10 @@ Open browser at `http://localhost:3000`
 ## Contact
 
 **Anmol Kumar**  
-Email: [anmolkumar30082005@gmail.com]   
-GitHub/LinkedIn: anmol3008
+Email: anmolkumar30082005@gmail.com  
+GitHub: [anmol3008](https://github.com/anmol3008)  
+LinkedIn: [Anmol Kumar](https://www.linkedin.com/in/anmol3008)
+
 
 ***
 
