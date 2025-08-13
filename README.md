@@ -42,35 +42,6 @@ Sangeetify is a modern real-time music streaming platform built on the MERN stac
 
 ***
 
-## Environment Variables
-
-### Frontend (`.env` file in frontend folder)
-```
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-```
-***
-
-### Backend (`.env` file in backend folder)
-
-```env
-PORT=5000  
-MONGODB_URI=your_mongodb_connection_string_here
-
-ADMIN_EMAIL=your_admin_email_here
-
-CLOUDINARY_API_KEY=your_cloudinary_api_key_here
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret_here
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name_here
-
-NODE_ENV=development
-
-CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-CLERK_SECRET_KEY=your_clerk_secret_key_here
-```
-
-*Replace all placeholders with the actual secure values in your local `.env` files.*
-
-***
 
 ## Installation and Setup
 1. **Clone the repository**
@@ -101,6 +72,35 @@ npm run dev
 4. **Access the app**
 
 Open browser at `http://localhost:3000`
+
+***
+## Environment Variables
+
+### Frontend (`.env` file in frontend folder)
+```
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+```
+***
+
+### Backend (`.env` file in backend folder)
+
+```env
+PORT=5000  
+MONGODB_URI=your_mongodb_connection_string_here
+
+ADMIN_EMAIL=your_admin_email_here
+
+CLOUDINARY_API_KEY=your_cloudinary_api_key_here
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret_here
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name_here
+
+NODE_ENV=development
+
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+CLERK_SECRET_KEY=your_clerk_secret_key_here
+```
+
+*Replace all placeholders with the actual secure values in your local `.env` files.*
 
 ***
 
